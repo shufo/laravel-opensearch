@@ -2,7 +2,7 @@
 
 :warning: This package is still in alpha. Don't use in production.
 
-An easy way to use the [official OpenSearch client](https://github.com/elastic/opensearch-php) in your Laravel or Lumen applications.
+An easy way to use the [official OpenSearch client](https://github.com/elastic/opensearch-php) in your Laravel applications.
 
 This is the fork of [laravel-elasticsearch](https://github.com/cviebrock/laravel-elasticsearch).
 
