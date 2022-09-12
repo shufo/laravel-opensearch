@@ -22,7 +22,6 @@ class ServiceProvider extends BaseServiceProvider
     public function boot()
     {
         $this->setUpConfig();
-        $this->setUpConsoleCommands();
     }
     /**
      * Register the application services.
