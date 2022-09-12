@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/shufo/laravel-opensearch/compare/v0.1.1...v0.1.2) (2022-09-12)
+
+
+### Fixes
+
+* 🐛 remove unused codes ([2912507](https://github.com/shufo/laravel-opensearch/commit/291250780126c763404bf958be0d4f2ec5cefe68))
+
 ## [0.1.1](https://github.com/shufo/laravel-opensearch/compare/v0.1.0...v0.1.1) (2022-09-12)
 
 
