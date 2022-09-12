@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/shufo/laravel-opensearch/compare/v0.1.0...v0.1.1) (2022-09-12)
+
+
+### Fixes
+
+* 🐛 delete unused import ([9ca6caf](https://github.com/shufo/laravel-opensearch/commit/9ca6caf938a152afc0bb5a407381fdcd56024937))
+
 ## 0.1.0 (2022-09-12)
 
 
