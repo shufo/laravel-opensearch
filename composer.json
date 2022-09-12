@@ -1,0 +1,70 @@
+{
+  "name": "shufo/laravel-opensearch",
+  "description": "An easy way to use the official PHP OpenSearch client in your Laravel applications.",
+  "keywords": [
+    "laravel",
+    "opensearch",
+    "search",
+    "client"
+  ],
+  "homepage": "https://github.com/shufo/laravel-opensearch",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shuhei Hayashibara",
+      "email": "meikyowise@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-json": "*",
+    "guzzlehttp/psr7": "^1.7|^2.0",
+    "illuminate/contracts": "^7.0|^8.0|^9.0",
+    "illuminate/support": "^7.0|^8.0|^9.0",
+    "opensearch-project/opensearch-php": "^2.0",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "limedeck/phpunit-detailed-printer": "^6.0",
+    "mockery/mockery": "^1.4.3",
+    "orchestra/testbench": "^6.5|^7.0",
+    "phpunit/phpunit": "^9.4"
+  },
+  "suggest": {
+    "aws/aws-sdk-php": "Required to connect to an OpenSearch host on AWS (^3.80)"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shufo\\LaravelOpenSearch\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Shufo\\LaravelOpenSearch\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "fresh": [
+      "rm -rf vendor composer.lock",
+      "composer install"
+    ],
+    "tests": [
+      "php vendor/bin/phpunit"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shufo\\LaravelOpenSearch\\ServiceProvider"
+      ],
+      "aliases": {
+        "OpenSearch": "Shufo\\LaravelOpenSearch\\Facade"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
