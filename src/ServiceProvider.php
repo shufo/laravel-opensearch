@@ -60,19 +60,4 @@ class ServiceProvider extends BaseServiceProvider
 
         $this->mergeConfigFrom($source, 'opensearch');
     }
-
-    private function setUpConsoleCommands(): void
-    {
-        if ($this->app->runningInConsole()) {
-            $this->commands([
-                AliasCreateCommand::class,
-                AliasRemoveIndexCommand::class,
-                AliasSwitchIndexCommand::class,
-                IndexCreateCommand::class,
-                IndexCreateOrUpdateMappingCommand::class,
-                IndexDeleteCommand::class,
-                IndexExistsCommand::class,
-            ]);
-        }
-    }
 }
