@@ -22,6 +22,14 @@ Publish the configuration file:
 php artisan vendor:publish --provider="Shufo\LaravelOpenSearch\ServiceProvider"
 ```
 
+To change host of opensearch, set `OPENSEARCH_HOST` environment variable to your opensearch hostname.
+
+To edit config you can edit `config/opensearch.php`.
+
+```bash
+$ vim config/opensearch.php
+```
+
 ## Usage
 
 With Facade:
