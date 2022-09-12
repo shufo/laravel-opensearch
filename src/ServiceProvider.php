@@ -1,18 +1,12 @@
-<?php namespace Shufo\LaravelOpenSearch;
+<?php 
 
-use Shufo\LaravelOpenSearch\Console\Command\AliasCreateCommand;
-use Shufo\LaravelOpenSearch\Console\Command\AliasRemoveIndexCommand;
-use Shufo\LaravelOpenSearch\Console\Command\AliasSwitchIndexCommand;
-use Shufo\LaravelOpenSearch\Console\Command\IndexCreateCommand;
-use Shufo\LaravelOpenSearch\Console\Command\IndexCreateOrUpdateMappingCommand;
-use Shufo\LaravelOpenSearch\Console\Command\IndexDeleteCommand;
-use Shufo\LaravelOpenSearch\Console\Command\IndexExistsCommand;
+namespace Shufo\LaravelOpenSearch;
+
 use OpenSearch\Client;
 use Illuminate\Container\Container;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-
 
 /**
  * Class ServiceProvider
