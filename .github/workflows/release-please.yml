@@ -11,4 +11,5 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         with:
           release-type: php
-          package-name: release-please-action
+          package-name: shufo/laravel-opensearch
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
