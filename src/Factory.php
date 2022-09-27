@@ -102,6 +102,11 @@ class Factory
         // Configure handlers for any AWS hosts
         foreach ($config['hosts'] as $host) {
             if (isset($host['aws']) && $host['aws']) {
+
+                if (isset($host['aws_credentials']) && $host['aws_credentials'] === true) {
+                    $clientBuilder->setSigV4CredentialProvider(true);
+                }
+
                 $clientBuilder->setHandler(function (array $request) use ($host) {
                     $psr7Handler = \Aws\default_http_handler();
                     $signer = new \Aws\Signature\SignatureV4('es', $host['aws_region']);
