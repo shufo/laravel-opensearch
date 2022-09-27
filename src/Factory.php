@@ -105,6 +105,7 @@ class Factory
 
                 if (isset($host['aws_credentials']) && $host['aws_credentials'] === true) {
                     $clientBuilder->setSigV4CredentialProvider(true);
+                    $clientBuilder->setSigV4Region($host['aws_region']);
                 }
 
                 $clientBuilder->setHandler(function (array $request) use ($host) {
