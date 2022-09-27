@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/shufo/laravel-opensearch/compare/v0.1.2...v0.1.3) (2022-09-27)
+
+
+### Fixes
+
+* 🐛 set SigV4 Credential Provider when aws_credential is set ([ab5f7e8](https://github.com/shufo/laravel-opensearch/commit/ab5f7e876f95032d4b71597515f65eb4b5f9d66e))
+
 ## [0.1.2](https://github.com/shufo/laravel-opensearch/compare/v0.1.1...v0.1.2) (2022-09-12)
 
 
