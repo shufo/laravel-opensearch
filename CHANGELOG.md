@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/shufo/laravel-opensearch/compare/v0.1.3...v0.1.4) (2022-09-27)
+
+
+### Fixes
+
+* 🐛 set SivV4Region ([590627b](https://github.com/shufo/laravel-opensearch/commit/590627bf2bd6562604cf723842416da6bb68f2e0))
+
 ## [0.1.3](https://github.com/shufo/laravel-opensearch/compare/v0.1.2...v0.1.3) (2022-09-27)
 
 
