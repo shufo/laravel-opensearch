@@ -8,6 +8,19 @@ This is the fork of [laravel-elasticsearch](https://github.com/cviebrock/laravel
 
 ## Installation and Configuration
 
+Add repository to your composer.json
+
+```json
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/shufo/opensearch-php"
+    }
+  ],
+```
+
+then
+
 ```sh
 composer require shufo/laravel-opensearch
 ```
