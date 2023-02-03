@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/shufo/laravel-opensearch/compare/v0.2.0...v0.2.1) (2023-02-03)
+
+
+### Miscellaneous
+
+* 🤖 bump shufo/opensearch-php to 2.0.5 ([bc797c7](https://github.com/shufo/laravel-opensearch/commit/bc797c7470b8d737d8856c22ab5c800423464b3c))
+
 ## [0.2.0](https://github.com/shufo/laravel-opensearch/compare/v0.1.4...v0.2.0) (2023-02-03)
 
 
