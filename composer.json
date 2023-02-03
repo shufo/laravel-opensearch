@@ -21,7 +21,7 @@
     "guzzlehttp/psr7": "^1.7|^2.0",
     "illuminate/contracts": "^7.0|^8.0|^9.0",
     "illuminate/support": "^7.0|^8.0|^9.0",
-    "opensearch-project/opensearch-php": "^2.0",
+    "shufo/opensearch-php": "^2.0.4",
     "psr/http-message": "^1.0"
   },
   "require-dev": {
@@ -30,6 +30,12 @@
     "orchestra/testbench": "^6.5|^7.0",
     "phpunit/phpunit": "^9.4"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/shufo/opensearch-php"
+    }
+  ],
   "suggest": {
     "aws/aws-sdk-php": "Required to connect to an OpenSearch host on AWS (^3.80)"
   },
