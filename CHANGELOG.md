@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/shufo/laravel-opensearch/compare/v0.1.4...v0.2.0) (2023-02-03)
+
+
+### Features
+
+* 🎸 use forked opensearch-php package ([e159ed7](https://github.com/shufo/laravel-opensearch/commit/e159ed7c4d300a58324339936956b90c5957bb07))
+
 ## [0.1.4](https://github.com/shufo/laravel-opensearch/compare/v0.1.3...v0.1.4) (2022-09-27)
 
 
