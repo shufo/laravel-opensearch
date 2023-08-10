@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/shufo/laravel-opensearch/compare/v0.2.1...v0.2.2) (2023-08-10)
+
+
+### Miscellaneous
+
+* 🤖 loose requirement version for illuminate packages ([74c9bea](https://github.com/shufo/laravel-opensearch/commit/74c9beaa25c9c4fb4ac2a4eecf3bc6cbed998bab))
+
 ## [0.2.1](https://github.com/shufo/laravel-opensearch/compare/v0.2.0...v0.2.1) (2023-02-03)
 
 
